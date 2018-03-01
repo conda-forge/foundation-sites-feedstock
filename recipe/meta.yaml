@@ -1,6 +1,6 @@
 {% set name = "foundation-sites" %}
-{% set version = "6.4.2" %}
-{% set sha256 = "88068c4f73cbfb565bae327493ae10d789650aa9f7f59bc13bcc94c3b892f0be" %}
+{% set version = "6.4.3" %}
+{% set sha256 = "7ade602fa10d89b0c3bb2c35f639a523caf3917005840bbd38ac439095748b78" %}
 
 package:
   name: {{ name|lower }}
