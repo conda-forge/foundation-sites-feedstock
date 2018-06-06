@@ -12,7 +12,9 @@ source:
 
 build:
   number: 0
-  script: npm install -g .
+  script: |
+    tgz=$(npm pack)
+    npm install -g $tgz
   noarch: generic
 
 requirements:
