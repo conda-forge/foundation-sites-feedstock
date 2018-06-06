@@ -15,12 +15,15 @@ Foundation is the most advanced responsive front-end framework in the world.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/foundation-sites-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/foundation-sites-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/foundation-sites-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/foundation-sites-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/foundation-sites/badges/version.svg)](https://anaconda.org/conda-forge/foundation-sites)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/foundation-sites/badges/downloads.svg)](https://anaconda.org/conda-forge/foundation-sites)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-foundation--sites-green.svg)](https://anaconda.org/conda-forge/foundation-sites) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/foundation-sites.svg)](https://anaconda.org/conda-forge/foundation-sites) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/foundation-sites.svg)](https://anaconda.org/conda-forge/foundation-sites) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/foundation-sites.svg)](https://anaconda.org/conda-forge/foundation-sites) |
 
 Installing foundation-sites
 ===========================
