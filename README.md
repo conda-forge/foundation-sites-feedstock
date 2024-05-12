@@ -5,9 +5,13 @@ Home: https://github.com/zurb/foundation-sites
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/foundation-sites-feedstock/blob/master/LICENSE.txt)
 
 Summary: The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.
+
+Development: https://github.com/zurb/foundation-sites
+
+Documentation: https://foundation.zurb.com/sites/docs/
 
 Foundation is the most advanced responsive front-end framework in the world.
 
@@ -39,6 +43,7 @@ Installing `foundation-sites` from the `conda-forge` channel can be achieved by 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `foundation-sites` can be installed with:
@@ -109,9 +114,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers

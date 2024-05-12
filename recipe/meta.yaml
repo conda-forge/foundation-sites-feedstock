@@ -1,6 +1,6 @@
 {% set name = "foundation-sites" %}
-{% set version = "6.6.1" %}
-{% set sha256 = "7f0366d343b1e475f8ae943db043114622821a6fed69306f97c786c42301ea44" %}
+{% set version = "6.7.1" %}
+{% set sha256 = "42991657de0619f966f3b659840af2182069f59957dcc32155be6b03621a8d78" %}
 
 package:
   name: {{ name|lower }}
@@ -20,19 +20,19 @@ build:
 requirements:
   build:
     - nodejs
-    
+
 test:
   commands:
     - npm list -g foundation-sites
   requires:
     - nodejs
-   
+
 about:
   home: https://github.com/zurb/foundation-sites
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.'
+  summary: The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.
   description: |
     Foundation is the most advanced responsive front-end framework in the world.  
   doc_url: https://foundation.zurb.com/sites/docs/
